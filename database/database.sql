@@ -9,3 +9,12 @@ CREATE TABLE usuarios
     materno text,
     PRIMARY KEY(id)
 );
+
+
+create table productos
+(
+    id bigserial NOT NULL,
+    nombre text NOT NULL,
+    precio int,
+    PRIMARY KEY (id)
+);
